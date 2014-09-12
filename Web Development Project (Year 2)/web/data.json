@@ -1,0 +1,26 @@
+[
+{
+"name":"iPhone 5S",
+        "shortname":"5s",
+        "reknown":"Colours: Silver, Black, Gold",
+        "bio":"The Good: Amazingly thin and light, Bigger more vibrant screen, Fast 4G LTE speeds, Very good battery life, Improved camera. The Bad: Half-baked Maps app, Very few interface enhancements, Operating system here that's beginning to feel a bit dated, Bigger screen size not utilized at all, IOS 6 a retread of familiar territory."
+},
+{
+"name":"iPhone 5C",
+        "shortname":"5c",
+        "reknown":"Colours: Blue, Yellow, Green, Blue",
+        "bio":"The Good: Essentially the same phone inside as the iPhone 5, Lots more LTE band support, New design, colourful, Good camera, Available for €599 or less on prepay. The Bad: Still quite pricey outright, Could miss out on some apps or app features designed for 64-bit iPhone 5s, The four-inch Retina Display feels small compared with most Android phones."
+},
+{
+"name":"Samsung Galaxy Note 3",
+        "shortname":"note 3",
+        "reknown":"Colours: White, Blue, Red",
+        "bio":"The Good: Great screen. Lots of stylus functionality, Expandable memory, Screaming quad-core processor, Refined S Pen skills. The Bad: Expensive, Poor low-light camera performance, Complicated to use, Faux-leather styling is crafted from cheap plastic."
+},
+{
+"name":"Samsung Galaxy S4",
+        "shortname":"s4",
+        "reknown":"Colours: White, Blue, Black",
+        "bio":"The Good: Stunning screen, Great camera, Powerful Quad-core processo, Compact phone, Android 4.2.2 out of the box. The Bad: Dimmer screen than competitors, Mediocre call quality, Innovation' doesn't wow, UI issues, Thin plastic casing."
+}
+]

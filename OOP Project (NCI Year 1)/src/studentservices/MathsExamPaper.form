@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[450, 200, 400, 500]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[400, 500]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-12,0,0,1,-112"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="true"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JLayeredPane" name="jLayeredPane1">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="-1" width="400" height="500"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+              <JLayeredPaneConstraints x="20" y="90" width="360" height="320" layer="0" position="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextPane" name="jTextPane3">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="text" type="java.lang.String" value="&#xa;National College of Ireland&#xa;BSc. (Hons) in Computing, Year 1 (BSHC1)&#xa;BSc. (Hons) in Computing, Evening, Year 1 (BSHCE1)&#xa;BSc. (Hons) in Business Information Systems, Year 1 (BSHBIS1)&#xa;BSc. (Hons) in Business Information Systems, Evening, Year 1 (BSHBISE1)&#xa;Higher Certificate in Computing Applications and Support, Year 1 (HCC1)&#xa;Higher Certificate in Computing Applications and Support, Evening, Year 1 (HCCE1)&#xa;Semester 1 Examinations &#x2013; 2011/2012&#xa;Wednesday 11th January, 2012&#xa;2.00pm &#x2013; 3.30pm&#xa;______________________________________________________________________&#xa;Introduction to Mathematics for Computing&#xa;Mr. Tom Nolan&#xa;Mr. Ciaran O&#x2019;Leary&#xa;Dr Ronan Flatley&#xa;Dr Caroline Sheedy&#xa;Full marks will be awarded to complete answers to FIVE questions.&#xa;Duration of exam: 90 minutes&#xa;Attachments: N/A&#xa;&#xa;&#xa;1. Sets&#xa;a) Let A = {1, 2, 3, 4, 5}, B = {3, 5} and C = {2, 6}.&#xa;(i) Write down the elements of A &#x2229; B.&#xa;(ii) Write down the elements of A U C.&#xa;(iii) Is B a subset of A? Give a reason for your answer.&#xa;(iv) Is C a subset of A? Give a reason for your answer.&#xa;(v) Compute | A U B U C |. [5 x 1 mark]&#xa;b) Let A be the set of letters in the word MISSISSIPPI.&#xa;Let B be the set of letters in the word MASSACHUSETTS.&#xa;List the elements in:&#xa;(i) A U B&#xa;(ii) A &#x2229; B&#xa;(iii) A &#x2013; B&#xa;(iv) B &#x2013; A. [4 x 1 mark]&#xa;c) Of 160 students of computing, 100 studied Java, 50 studied C++ and 30 studied both&#xa;languages.&#xa;(i) Draw a Venn diagram to represent the situation above. [2 marks]&#xa;(ii) How many students studied Java but not C++? [3 marks]&#xa;(iii) How many students studied neither language? [3 marks]&#xa;(iv) How many studied only one language? [3 marks]&#xa;2. Relations and functions&#xa;a) Let f(x) = x + 1 and g(x) = x2 &#x2013; 1, where x is a real number.&#xa;(i) Compute f(3) and g(4). [2 marks]&#xa;(ii) Compute g(1) and g(-1). Is g(x) injective? Give a reason for your answer. [3 marks]&#xa;(iii) What is the range of f(x)? Is f(x) surjective? Give a reason for your answer. [3 marks]&#xa;(iv) Calculate the composite function g o f(x). [2 marks]&#xa;b) Suppose L is the set of lecturers {Tom, Dick, Harriet}. Suppose M is a set of modules&#xa;{Databases, Java, Mathematics, XML} and S is the set of semesters {1, 2}.&#xa;We have the relation &#x201c;teaches&#x201d;, R: L &#x2192; M with&#xa;R = {(Tom, Databases), (Dick, Java), (Dick, XML), (Harriet, Databases), (Harriet,Mathematics)}.&#xa;We also have the relation &#x201c;is taught during&#x201d;, T: M &#x2192; S with&#xa;T = {(Databases, 1), (Java, 1), (Java, 2), (Mathematics, 1), (XML, 2)}.&#xa;(i) Draw a digraph of the relation R. [3 marks]&#xa;(ii) Write down the elements of R-1. [2 marks]&#xa;(iii) Draw a digraph of the composite relation S o R. [3 marks]&#xa;(iv) Does Dick teach during semester 2 ? Give a reason for your answer. [2 marks]&#xa;&#xa;&#xa;3. Logic&#xa;a)&#xa;(i) Explain in one sentence what is meant by a tautology. [2 marks]&#xa;(ii) Give an example of a logical expression that is a tautology. [3 marks]&#xa;b) Construct the truth table for the following logical expressions:&#xa;(i) p ^ q [3 marks]&#xa;(ii) ~(~p v ~q) [3 marks]&#xa;Decide whether or not the in expressions in (i) and (ii) are logically equivalent,&#xa;giving reasons for your answer. [2 marks]&#xa;c) Consider the following logical propositions:&#xa;P: x is an integer greater than 8.&#xa;Q: x is an integer greater than 3.&#xa;(i) Show that P =&gt; Q has value TRUE. [3 marks]&#xa;(ii) What is the converse of P =&gt; Q ? Decide if the converse is TRUE, showing your&#xa;workings. [2 marks]&#xa;(iii) What is the contrapositive of P =&gt; Q ? Decide if the contrapositive is TRUE,&#xa;showing your workings. [2 marks]&#xa;4. Calculus&#xa;a) A bus leaves a bus stop and accelerates linearly for 30 seconds up to a speed of 10m/s. It then&#xa;cruises at 10 m/s for one minute. Finally, it decelerates linearly for 10 seconds and comes to a&#xa;halt at the next bus stop. Calculate the acceleration of the bus during:&#xa;(i) the first 30 seconds&#xa;(ii) the final 10 seconds. [2 x 4 marks]&#xa;b) Calculate dy/dx for the following functions:&#xa;(i) y = f(x) = (x3 &#x2013; 2x)(2x2 + 9)&#xa;(ii) y = (x3 + 2)4 . [2 x 3 marks]&#xa;c) Find the slope of the equation of a tangent to the curve y = 3x2 &#x2013; 12x + 6 at the point (4, 2).&#xa;Also, find the turning point and state if it is a maximum or a minimum.&#xa;[6 marks]&#xa;&#xa;&#xa;5. Probability and statistics&#xa;a) Give one example of qualitative data and one example of quantitative data. [2 marks]&#xa;b) For the data set&#xa;2, 2, 2, 3, 3, 4, 5, 6, 6, 9, 9, 9&#xa;calculate the following statistics:&#xa;(i) mean&#xa;(ii) mode&#xa;(iii) median&#xa;(iv) standard deviation. [4 x 2 marks]&#xa;c) The country Ruralia has ten regions. The population density has the following distribution:&#xa;Density (per km2) Frequency&#xa;0 &#x2013; 20 4&#xa;20 &#x2013; 50 2&#xa;50 &#x2013; 100 3&#xa;100 &#x2013; 200 1&#xa;i.e., four regions have a density of 0&#x2013;20 people per square km,&#xa;two regions have density of 20&#x2013;50 people per square km, etc.&#xa;Calculate:&#xa;(i) the mean population density [4 marks]&#xa;(ii) the variance of the distribution [4 marks]&#xa;(iii) the standard deviation of the distribution. [2 marks]&#xa;6. Counting&#xa;a) In how many ways can the letters of the following words be arranged?&#xa;(i) ANSI (ii) HTTP (iii) BANANA [3 x 2 marks]&#xa;b) Given 5 black skittles and 6 red, in how many ways can the 11 skittles&#xa;be placed in a line if:&#xa;(i) any colour skittle may be next to any other?&#xa;(ii) two skittles of the same colour may not be next to each other?&#xa;(iii) all 6 red skittles must be next to each other? [3 x 2 marks]&#xa;c) From a class of 4 women and 6 men, how many possible project teams can be made&#xa;if each team requires:&#xa;(i) 5 people [2 marks]&#xa;(ii) 5 people, at least 1 of whom must be a woman [3 marks]&#xa;(iii) 5 people, at least 2 of whom must be men. [3 marks]&#xa;"/>
+                <Property name="caretPosition" type="int" value="0"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="36" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Exam Paper"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+              <JLayeredPaneConstraints x="160" y="20" width="210" height="50" layer="0" position="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="opaque" type="boolean" value="false"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+              <JLayeredPaneConstraints x="10" y="430" width="370" height="50" layer="0" position="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="btnHome" min="-2" pref="52" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnGoBack" min="-2" pref="56" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btnMaths" min="-2" pref="79" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnLearning" min="-2" pref="80" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnDisability" min="-2" pref="80" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnGoBack" alignment="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="btnDisability" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnLearning" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnMaths" alignment="0" pref="50" max="32767" attributes="0"/>
+                  <Component id="btnHome" alignment="1" pref="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="btnLearning">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="99" red="66" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Learning"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLearningActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDisability">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="99" red="66" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Disablity"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDisabilityActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnMaths">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="99" red="66" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Maths"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMathsActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnHome">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/studentservices/home.png"/>
+                </Property>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHomeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnGoBack">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/studentservices/backbutton.png"/>
+                </Property>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGoBackActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblBackground">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/studentservices/background.png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+              <JLayeredPaneConstraints x="0" y="0" width="-1" height="-1" layer="0" position="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

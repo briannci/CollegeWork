@@ -1,0 +1,487 @@
+#wrapper
+{
+width:780px;
+height:auto;
+margin:0 auto;
+}
+
+h3
+{
+font-family: monotype corsiva;
+color:black;
+text-align:center;
+}
+
+img
+{
+border-radius:10px;
+}
+
+table
+{
+margin-right: 20px;
+background-color: #F0F0F0;
+border-radius:10px;
+float: right;
+text-align: left;
+font-family: ariel narrow;
+color:navy;
+}
+
+a:hover {color:green;} /* mouse over link */
+a:visited {color:red;}  /* visited link */
+a:link {color:blue;}      /* unvisited link */
+
+#header
+{
+width:780px;
+border:2px solid;
+margin-left:20px;
+box-shadow: 10px 10px 10px black;
+border: 1px solid black;
+border-radius:10px;
+}
+
+#nav_top ul
+{
+list-style: none;
+border-radius:10px;
+}
+
+#nav_top li a  
+{
+list-style: none;
+border-radius:20px;
+margin: 0 0.20em 0.90em 0.50em;
+}
+
+#nav_top li a
+{
+background-color: white;
+height: 28px;
+border: 1px solid navy;
+box-shadow: 0.3em 0.3em navy;
+line-height: 2em;
+float: left;
+width: 8em;
+display: block;
+color: black;
+text-decoration: none;
+text-align: center;
+border-radius:10px;
+font-weight:bold;
+font-size:16px;
+font-family:bodoni mt black;
+}
+
+#content
+{
+clear:both;
+border:1px solid red;
+top: 100px;
+box-shadow: 15px 15px 15px #888888;
+margin:0px auto;
+margin-left: 20px;
+border-radius:10px;
+width:780px;
+height: 910px;
+font-family: verdana;
+border: 1px solid black;
+background-color: white
+}
+
+#content1
+{
+clear:both;
+border:1px solid red;
+top: 100px;
+box-shadow: 15px 15px 15px #888888;
+margin:0px auto;
+margin-left: 20px;
+border-radius:10px;
+width:780px;
+height: 750px;
+font-family: verdana;
+border: 1px solid black;
+background-color: white
+}
+
+
+#content2
+{
+clear:both;
+border:1px solid red;
+top: 100px;
+box-shadow: 15px 15px 15px #888888;
+margin:0px auto;
+margin-left: 20px;
+border-radius:10px;
+width:780px;
+height: 600px;
+font-family: verdana;
+border: 1px solid black;
+background-color: white
+}
+
+#content3
+{
+clear:both;
+border:1px solid black;
+top: 100px;
+box-shadow: 15px 15px 15px #888888;
+margin:0px auto;
+margin-left: 20px;
+border-radius:10px;
+width:780px;
+height: 460px;
+font-family: verdana;
+border: 1px solid black;
+background-color: white
+}
+
+#content4
+{
+clear:both;
+border:1px solid red;
+top: 100px;
+box-shadow: 15px 15px 15px #888888;
+margin:0px auto;
+margin-left: 20px;
+border-radius:10px;
+width:780px;
+height: 500px;
+font-family: verdana;
+border:1px solid black;
+border-color:black;
+background-color: white
+}
+
+#content4
+{
+clear:both;
+border:1px solid red;
+top: 100px;
+box-shadow: 15px 15px 15px #888888;
+margin:0px auto;
+margin-left: 20px;
+border-radius:10px;
+width:780px;
+height: 970px;
+font-family: verdana;
+border: 1px solid black;
+border-color:black;
+background-color: white
+}
+
+#content5
+{
+clear:both;
+top: 100px;
+box-shadow: 15px 15px 15px #888888;
+margin:0px auto;
+margin-left: 20px;
+border-radius:10px;
+width:780px;
+height: 490px;
+font-family: verdana;
+border: 1px solid black;
+background-color: white
+}
+
+#nav_top a:hover
+{
+background-color: navy;
+color:white;
+}
+ 
+#centerdiv
+{
+background-color:white;
+font-family: ariel narrow;
+font-size: 14px;
+border: 1px solid #dbfdf8;
+margin: 0px auto;
+font-size: 14px;
+border-radius: 10px;
+height:540px;
+padding-top:20px;
+padding-left:20px;
+padding-right:20px;
+line-height: 200%;
+width:600px;
+color:navy;
+}
+
+body
+{
+/*the color here #2c2721 was the bottom color
+of my gradient image - a seamless fade*/
+background: #2c2721 url(gradient.jpg) repeat-x;
+}
+
+/*the area to the right with a gradient fade*/
+#rightSide
+{
+	float: right;
+	margin-right: 10px;
+	height: 500px;
+	width: 200px;
+        /*#ffffff is the bottom color in gradient*/
+	background: #ffffff url(gradient.jpg) repeat-x;
+}
+
+#rightSide h1
+{
+color: #fff;
+margin-left: 5px;
+}
+
+/*left area with fade example*/
+#leftSide
+{
+float: left;
+height: 500px;
+width: 200px;
+/*#ffffff is bottom color in gradient*/
+background: #ffffff url(gradient.jpg) repeat-x;
+margin-left: 10px;
+}
+
+
+#left
+{
+float: left;
+width: 320px;
+font-family: ariel narrow;
+font-size: 14px;
+margin-left: 50px;
+border: 1px solid #dbfdf8;
+border-radius: 20px;
+color: navy;
+line-height: 200%;
+}
+
+#right
+{
+float: right;
+font-family: ariel narrow;
+font-size: 14px;
+border: 1px solid #dbfdf8;
+color: navy;
+border-radius: 20px;
+margin-right: 10px;
+line-height: 150%;
+}
+
+iframe
+{
+float: right;
+margin-right:30px;
+}
+
+#social
+{
+left: 90px;
+border-radius: 20px;
+box-shadow: 10px 10px 10px black;
+height: 55px;
+position: fixed;
+width: 120px;
+}
+
+
+input
+{ 
+padding: 8px;
+border: solid 1px #E5E5E5;
+font: normal 12px Verdana, Tahoma, sans-serif;
+width: 200px;
+background: #FFFFFF url('form_background.png') left top repeat-x;/*Mimic Background Property in Internet Explorer since IE 6,7,8 does not support CSS3*/
+background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*0.1 actually means 10 %*/
+-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+textarea 
+{ 
+width: 400px;
+max-width: 400px;
+height: 150px;
+line-height: 150%;
+padding: 8px;
+border: solid 1px #E5E5E5;
+font: normal 12px Verdana, Tahoma, sans-serif;
+background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*0.1 actually means 10 %*/
+-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+#submit {
+color: white;
+font-size: 12px;
+width: 135px;
+height: 30px;
+border: none;
+margin: 0;
+padding: 0;
+background: #0c0; 
+border-radius: 10px;
+cursor: pointer;
+}
+
+#reset 
+{
+color: white;
+font-size: 12px;
+width: 135px;
+height: 30px;
+border: none;
+margin: 0;
+padding: 0;
+background: #cd0000; 
+border-radius: 10px;
+cursor: pointer;
+}
+
+
+.form label, form
+{ 
+margin-left: 12px; 
+color: navy;
+font-size: 14px;
+}
+
+#formdiv { 
+width: 550px;
+background-color: #EFFBFB;
+-moz-border-radius:12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+border-radius: 20px;
+margin: 0 auto;
+color:navy;
+}
+
+h2
+{
+color: blue;
+text-align: center;
+font-family: monotype corsiva;
+}
+
+#nydiv
+{
+margin-left: 50px;
+margin-right: 50px;
+font-family: ariel narrow;
+font-size: 14px;
+line-height: 200%;
+color:navy;
+}
+
+#nydiv2
+{
+width:700px;
+}
+
+#video
+{
+float: right;
+background-color: #D3D3D3;
+border-radius: 20px;
+margin-right: 50px;
+}
+
+#videoright
+{
+}
+
+#imagesleft
+{
+border-radius: 10px;
+float:left;
+}
+
+.video
+{
+border-radius: 20px;
+background-color: white;
+}
+
+#verticalmenu
+{
+left: 70px;
+float: left;
+position:fixed;
+top:240px;
+}
+
+#wrapmenu
+{
+left: 60px;
+float: left;
+position: fixed;
+top: 225px;
+background: #ffffff url(gradient.jpg) repeat-x; 
+width: 200px;
+border-radius: 20px;
+height:390px;
+box-shadow: 10px 10px 10px #888888;
+border: 1px solid black;
+}
+
+#wrapmenu2
+{
+right: 20px;
+float: right;
+position: fixed;
+top: 225px;
+background: #ffffff url(gradient.jpg) repeat-x; 
+width: 200px;
+border-radius: 20px;
+height:390px;
+box-shadow: 10px 10px 10px #888888;
+border: 1px solid black;
+}
+
+.pmenu
+{
+font-family: verdana;
+font-size: 13px;
+text-align: center;
+line-height: 200%;
+}
+
+
+#address
+{
+width: 150px;
+height: 130px;
+text-align: left;
+border-radius: 5px;
+margin-left: 20px;
+border: 1px solid black;
+}
+
+.holidays 
+{
+border: 1px solid blue;
+padding: 20px;
+margin-left: 50px;
+margin-right: 80px;
+width: 600px;
+font-family: ariel narrow;
+font-size: 14px;
+background-color: #EFFBFB;
+}
+
+#w3
+{
+width: 180px;
+height: 50px;
+border-radius: 10px;
+box-shadow: 10px 10px 10px black;
+float: right;
+}

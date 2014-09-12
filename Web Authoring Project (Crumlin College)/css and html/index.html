@@ -1,0 +1,669 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Sunfly Holidays</title>
+
+<meta name="description" content="Sunfly Holidays offer holiday deals to Benidorm, Ibiza, Lanzarote and Tenerife" />
+<meta name="keywords" content="sunfly holidays, holiday, benidorm, ibiza, lanzarote, tenerife, booking" />
+<meta name="author" content="Brian Murphy" />
+<meta name="title" content="Sunfly Holidays, holiday, benidorm, ibiza, lanzarote, tenerife, booking" />
+
+<meta name="distribution" content="Ireland, Dublin, Cork" />
+<meta name="holidays" content="home, follow" />
+<meta name="revisit-after" content="14 days" />
+<meta name="resource-type" content="over 18's" />
+<meta name="page-topic" content="latest holidays to benidorm, ibiza, lanzarote and tenerife" />
+
+<meta name="copyright" content="sunflyholidays.com" />
+<meta name="rating" content="general" />
+<meta name="subject" content="holiday deals to Benidorm, Ibiza, Lanzarote and Tenerife" />
+
+
+<style type="text/css">
+body {
+	background-color: #FF9900;
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat-y;
+}
+#wrapper #bodyArea table tr th p {
+	color: #03F;
+}
+#wrapper #headerImg {
+	background-image: url(file:///F|/Crumlin%20College%20Year%202/Web%20Authoring/Assignment/images/flowerHpImg.jpg);
+}
+#wrapper #bodyArea table tr td table tr td p {
+	color: #00C;
+}
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+</style>
+<link href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/layout.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:link {
+	color: #F90;
+}
+a:visited {
+	color: #F00;
+}
+</style>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script src="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/Spry-UI-1.7/includes/SpryDOMUtils.js" type="text/javascript"></script>
+<script src="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/Spry-UI-1.7/includes/SpryDOMEffects.js" type="text/javascript"></script>
+<script src="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/Spry-UI-1.7/includes/SpryWidget.js" type="text/javascript"></script>
+<script src="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/Spry-UI-1.7/includes/SpryMenu.js" type="text/javascript"></script>
+<script src="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/Spry-UI-1.7/includes/plugins/MenuBar2/SpryMenuBarKeyNavigationPlugin.js" type="text/javascript"></script>
+<script src="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/Spry-UI-1.7/includes/plugins/MenuBar2/SpryMenuBarIEWorkaroundsPlugin.js" type="text/javascript"></script>
+<script src="../SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script src="../scripts/swfobject_modified.js" type="text/javascript"></script>
+<script src="../scripts/swfobject_modified.js" type="text/javascript"></script>
+<link href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/Spry-UI-1.7/css/Menu/basic/SpryMenuBasic.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+/* BeginOAWidget_Instance_2141544: #MenuBar */
+/* Settable values for skinning a Basic menu via presets. If presets are not sufficient, most skinning should be done in
+	these rules, with the exception of the images used for down or right pointing arrows, which are in the file SpryMenuBasic.css
+	
+	 These assume the following widget classes for menu layout (set in a preset)
+	.MenuBar - Applies to all menubars - default is horizontal bar, all submenus are vertical - 2nd level subs and beyond are pull-right.
+	.MenuBarVertical - vertical main bar; all submenus are pull-right.
+	
+	You can also pass in extra classnames to set your desired top level menu bar layout. Normally, these are set by using a preset. 
+	They only apply to horizontal menu bars:
+		MenuBarLeftShrink - The menu bar will be horizontally 'shrinkwrapped' to be just large enough to hold its items, and left aligned
+		MenuBarRightShrink - Just like MenuBarLeftShrink, but right aligned
+		MenuBarFixedLeft - Fixed at a specified width set in the rule '.MenuBarFixedLeft', and left aligned.  
+		MenuBarFixedCentered -  - Fixed at a specified width set in the rule '.MenuBarFixedCentered', 
+						and centered in its parent container.
+		MenuBarFullwidth - Grows to fill its parent container width.
+ 
+	In general, all rules specified in this file are prefixed by #MenuBar so they only apply to instances of the widget inserted along
+	with the rules. This permits use of multiple MenuBarBasic widgets on the same page with different layouts. Because of IE6 limitations,
+	there are a few rules where this was not possible. Those rules are so noted in comments.
+	
+*/
+
+#MenuBar  {
+	background-color:#FFFFFF;
+	font-family: "Cooper Black"; /* Specify fonts on on MenuBar and subMenu MenuItemContainer, so MenuItemContainer,
+												MenuItem, and MenuItemLabel
+												at a given level all use same definition for ems.
+												Note that this means the size is also inherited to child submenus, 
+												so use caution in using relative sizes other than
+												100% on submenu fonts. */
+	font-weight: normal;
+	font-size: 16px;
+	font-style: normal;
+	padding:0;
+	border-color: #ffffff #ffffff #ffffff #ffffff;
+	border-width:0px;
+	border-style: none none none none;
+}
+/* Caution: because ID+class selectors do not work properly in IE6, but we want to restrict these rules to just this
+widget instance, we have used string-concatenated classnames for our selectors for the layout type of the menubar 
+in this section. These have very low specificity, so be careful not to accidentally override them. */
+
+.MenuBar br { /* using just a class so it has same specificity as the ".MenuBarFixedCentered br" rule bleow */
+	display:none;
+}
+.MenuBarLeftShrink {
+	float: left; /* shrink to content, as well as float the MenuBar */
+	width: auto;
+}
+.MenuBarRightShrink {
+	float: right; /* shrink to content, as well as float the MenuBar */
+	width: auto;
+}
+.MenuBarFixedLeft {
+	float: left;
+	width: 80em;
+}
+.MenuBarFixedCentered {
+	float: none;
+	width: 80em;
+	margin-left:auto;
+	margin-right:auto;
+}
+.MenuBarFixedCentered br {
+	clear:both;
+	display:block;
+}
+.MenuBarFixedCentered .SubMenu br {
+	display:none;
+}
+.MenuBarFullwidth {
+	float: left;
+	width: 100%;
+}
+
+/* Top level menubar items - these actually apply to all items, and get overridden for 1st or successive level submenus */
+#MenuBar  .MenuItemContainer {
+	padding: 0px 0px 0px 0px; 
+	margin: 0; 	/* Zero out margin  on the item containers. The MenuItem is the active hover area.
+				For most items, we have to do top or bottom padding or borders only on the MenuItem 
+				or a child so we keep the entire submenu tiled with items.
+				Setting this to 0 avoids "dead spots" for hovering. */
+}
+#MenuBar  .MenuItem {
+	padding: 0px 24px 0px 0px;
+	background-color:#FFCC00;
+	border-width:1px;
+	border-color: #FFCC00;
+	border-style: none solid none solid;
+}
+#MenuBar  .MenuItemFirst {
+	border-style: none none none none;
+}
+#MenuBar .MenuItemLast {
+	border-style: none solid none none;
+}
+
+#MenuBar  .MenuItem  .MenuItemLabel{
+	text-align:center;
+	line-height:1.4em;
+	color:#000000;
+	background-color:#FFCC00;
+	padding: 6px 15px 6px 39px;
+	width: 10em;
+	width:auto;
+}
+.SpryIsIE6 #MenuBar  .MenuItem  .MenuItemLabel{
+	width:1em; /* Equivalent to min-width in modern browsers */
+}
+
+/* First level submenu items */
+#MenuBar .SubMenu  .MenuItem {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	font-style: normal;
+	background-color:#ffffff;
+	padding:0px 2px 0px 0px;
+	border-width:1px;
+	border-color: #FFCC00;
+	/* Border styles are overriden by first and last items */
+	border-style: solid solid none solid;
+}
+#MenuBar  .SubMenu .MenuItemFirst {
+	border-style: solid solid none solid;
+}
+#MenuBar  .SubMenu .MenuItemFirst .MenuItemLabel{
+	padding-top: 6px; 
+}
+#MenuBar .SubMenu .MenuItemLast {
+	border-style: solid solid solid solid;
+}
+#MenuBar .SubMenu .MenuItemLast .MenuItemLabel{
+	padding-bottom: 6px; 
+}
+#MenuBar .SubMenu .MenuItem .MenuItemLabel{
+	text-align:left;
+	line-height:1em;	
+	background-color:#ffffff;
+	color:#333333;
+	padding: 6px 12px 6px 5px; 
+	width: 7em;
+	 
+}
+
+/* Hover states for containers, items and labels */
+#MenuBar .MenuItemHover {
+	background-color: #999999;
+	border-color: #EDEDED;
+}
+
+#MenuBar .MenuItemWithSubMenu.MenuItemHover .MenuItemLabel{
+	background-color: #999999; /* consider exposing this prop separately*/
+	color: #000000;
+}
+#MenuBar .MenuItemHover .MenuItemLabel{
+	background-color: #999999;
+	color: #000000;
+}
+#MenuBar .SubMenu .MenuItemHover {
+	background-color: #CCCCCC;
+	border-color: #999999;
+}
+
+#MenuBar .SubMenu .MenuItemHover .MenuItemLabel{
+	background-color: #CCCCCC;
+	color: #333333;
+}
+/* Submenu properties -- First level of submenus */
+#MenuBar .SubMenuVisible {
+	background-color: #ffffff;
+	min-width:0%;  /* This keeps the menu from being skinnier than the parent MenuItemContainer - nice to have but not available on ie6 */
+	border-color: #ffffff #ffffff #ffffff #ffffff; 
+	border-width:0px;
+	border-style: none none none none;
+}
+#MenuBar.MenuBar .SubMenuVisible {/* For Horizontal menubar only */
+	top: 100%;	/* 100% is at the bottom of parent menuItemContainer */
+	left:0px; /* 'left' may need tuning depending upon borders or padding applied to menubar MenuItemContainer or MenuItem, 
+					and your personal taste.
+					0px will left align the dropdown with the content area of the MenuItemContainer. Assuming you keep the margins 0 
+					on MenuItemContainer and MenuItem on the parent
+					menubar, making this equal the sum of the MenuItemContainer & MenuItem padding-left will align 
+					the dropdown with the left of the menu item label.*/
+	z-index:10;
+}
+#MenuBar.MenuBarVertical .SubMenuVisible {
+	top: 0px;	
+	left:100%;
+	min-width:0px; /* Do not neeed to match width to parent MenuItemContainer - items will prevent total collapse */
+}
+/* Submenu properties -- Second level submenu and beyond - these are visible descendents of .MenuLevel1 */
+#MenuBar .MenuLevel1 .SubMenuVisible {
+	background-color: #ffffff;
+	min-width:0px; /* Do not neeed to match width to parent MenuItemContainer - items will prevent total collapse*/
+	top: 0px;	/* If desired, you can move this down a smidge to separate top item''s submenu from menubar - 
+				that is really only needed for submenu on first item of MenuLevel1, or you can make it negative to make submenu more
+				vertically 'centered' on its invoking item */
+	left:100%; /* If you want to shift the submenu left to partially cover its invoking item, you can add a margin-left with a 
+				negative value to this rule. Alternatively, if you use fixed-width items, you can change this left value
+				to use px or ems to get the offset you want. */
+}
+/* IE6 rules - you can delete these if you do not want to support IE6 */
+
+/* A note about multiple classes in IE6.
+ * Some of the rules above use multiple class names on an element for selection, such as "hover" (MenuItemHover) and "has a subMenu" (MenuItemWithSubMenu),
+ * giving the selector '.MenuItemWithSubMenu.MenuItemHover'.
+ * Unfortunately IE6 does not support using mutiple classnames in a selector for an element. For a selector such as '.foo.bar.baz', IE6 ignores
+ * all but the final classname (here, '.baz'), and sets the specificity accordingly, counting just one of those classs as significant. To get around this 
+ * problem, we use the plugin in SpryMenuBarIEWorkaroundsPlugin.js to generate compound classnames for IE6, such as 'MenuItemWithSubMenuHover'. 
+ * Since there are a lot of these needed, the plugin does not generate the extra classes for modern browsers, and we use the CSS2 style mutltiple class
+ * syntax for that. Since IE6 both applies rules where 
+ * it should not, and gets the specificity wrong too, we have to order rules carefully, so the rule misapplied in IE6 can be overridden. 
+ * So, we put the multiple class rule first. IE6 will mistakenly apply this rule.  We follow this with the single-class rule that it would 
+ * mistakenly override, making sure the  misinterpreted IE6 specificity is the same as the single-class selector, so the latter wins. 
+ * We then create a copy of the multiple class rule, adding a '.SpryIsIE6' class as context, and making sure the specificity for
+ * the selector is high enough to beat the single-class rule in the "both classes match" case. We place the IE6 rule at the end of the 
+ * css style block to make it easy to delete if you want to drop IE6 support.
+ * If you decide you do not need IE6 support, you can get rid of these, as well as the inclusion of the SpryMenuBarIEWorkaroundsPlugin.js script.
+ * The 'SpryIsIE6' class is placed on the HTML element by  the script in SpryMenuBarIEWorkaroundsPlugin.js if the browser is Internet Explorer 6. This avoids the necessity of IE conditional comments for these rules.
+ */
+.SpryIsIE6 #MenuBar .MenuBarView .MenuItemWithSubMenuHover .MenuItemLabel /* IE6 selector  */{
+	background-color: #999999; /* consider exposing this prop separately*/
+	color: #000000;
+}
+.SpryIsIE6 #MenuBar .MenuBarView .SubMenu .MenuItemWithSubMenuHover .MenuItemLabel/* IE6 selector  */{
+	background-color: #cccccc; /* consider exposing this prop separately*/
+	color: #333333;
+}
+.SpryIsIE6 #MenuBar .SubMenu .SubMenu  /* IE6 selector  */{
+	margin-left: -0px; /* Compensates for at least part of an IE6 "double padding" version of the "double margin" bug */
+}
+
+	
+/* EndOAWidget_Instance_2141544 */
+body,td,th {
+	color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+}
+</style>
+<script type="text/xml">
+<!--
+<oa:widgets>
+  <oa:widget wid="2141544" binding="#MenuBar" />
+  <oa:widget wid="2443523" binding="#OAWidget_2" />
+  <oa:widget wid="2141542" binding="#ImageSlideShow" />
+</oa:widgets>
+-->
+</script>
+
+
+<script type="text/javascript">
+function MM_displayStatusMsg(msgStr) { //v1.0
+  window.status=msgStr;
+  document.MM_returnValue = true;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<link href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/YUI/2.8.2r1/build/calendar/assets/skins/sam/calendar.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+/* BeginOAWidget_Instance_2443523: #OAWidget_2 */
+
+/* CALENDAR BOUNDING BOX */ 
+.yui-skin-sam #OAWidget_2 { 
+	background-color:#99cccc; 
+	border:1px solid #003366; 
+	padding:10px;
+} 
+
+/* TITLE BAR */
+.yui-skin-sam #OAWidget_2 .title {
+	border-bottom:1px solid #cccccc;
+	color:#000;
+}
+
+/* WEEKDAY HEADER ROW */
+.yui-skin-sam #OAWidget_2 .calweekdayrow {
+	height:2em;
+}
+
+/* WEEKDAY (Su, Mo, Tu...) HEADER CELLS */
+.yui-skin-sam #OAWidget_2 .calweekdaycell {
+	color:#000;
+	font-weight:normal;
+}
+
+/* WEEK NUMBERS (ROW HEADERS/FOOTERS) */
+.yui-skin-sam #OAWidget_2 .calrowhead, .yui-skin-sam .yui-calendar .calrowfoot {
+	color:#666666;
+	font-size:85%;
+	font-style:normal;
+	font-weight:normal;
+}
+
+/* NORMAL CELLS */
+.yui-skin-sam #OAWidget_2 td.calcell {
+	border:1px solid #000066;
+	background:#eeeeee;
+	height:1.6em;
+	line-height:1.6em; /* set line height equal to cell height to center vertically */
+}
+
+/* LINK INSIDE NORMAL CELLS */
+.yui-skin-sam #OAWidget_2 td.calcell a {
+	color:#003366;
+}
+
+/* TODAY'S DATE */
+.yui-skin-sam #OAWidget_2 td.calcell.today { 
+	background-color:#ffcc33; 
+} 
+.yui-skin-sam #OAWidget_2 td.calcell.today a {
+	background-color:#ffcc66;
+}
+
+/* SELECTED DATE */
+.yui-skin-sam #OAWidget_2 td.calcell.selected a {
+	background-color:#000099;
+	color:#cccccc;
+}
+
+/* HOVER DATE */
+.yui-skin-sam #OAWidget_2 td.calcell.calcellhover a {
+	background-color:#ff6600;
+	color:#000066;
+}
+
+/* CalendarNavigator */
+/* NAVIGATOR MASK */
+.yui-skin-sam #OAWidget_2 .yui-cal-nav-mask {
+	background-color:#000;
+	opacity:0.25;
+	*filter:alpha(opacity=25); /* IE */
+}
+
+/* NAVIGATOR BOUNDING BOX */
+.yui-skin-sam #OAWidget_2 .yui-cal-nav {
+	border:1px solid #808080;
+	background-color:#f2f2f2;
+}
+		
+/* EndOAWidget_Instance_2443523 */
+td {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+</style>
+<link href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/lightbox.css" rel="stylesheet" type="text/css" />
+<link href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/sample_lightbox_layout.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:active {
+	color: #F90;
+}
+</style>
+
+<meta name="Keywords" content="sunfly, sunfly holidays, holidays, sun, sunflyholidays" />
+<link href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/Spry-UI-1.7/css/SpryImageSlideShow.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+/* BeginOAWidget_Instance_2141542: #ImageSlideShow */
+
+#ImageSlideShow.ImageSlideShow {
+	width: 710px;
+	height: 200px;
+	border: solid 5px #000000;
+}
+
+#ImageSlideShow .ISSClip {
+	background-color: #ffcc00;
+}
+    
+/* EndOAWidget_Instance_2141542 */
+</style>
+<link href="layout.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+
+<link href="../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body link="#0000FF" alink="#FF9933" onload="MM_preloadImages('../images/benidorm2.jpg','../images/ibiza6.jpg','../images/tenerife4.jpg')">
+<div id="wrapper"> <a name="top" id="top"></a>
+  <div id="logo">
+    <p><img src="../images/sunfly.jpg" alt="sunfly" width="350" height="84" border="0" usemap="#returnshome" />
+      <map name="returnshome" id="returnshome">
+        <area shape="rect" coords="154,7,336,79" href="index.html" alt="Returns to Homepage" />
+      </map>
+      <a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/home.html"></a></p>
+  </div>
+  <ul id="MenuBar2" class="MenuBarHorizontal">
+    <li><a href="index.html"> Home</a>    </li>
+    <li><a href="#" class="MenuBarItemSubmenu">Holidays</a>
+      <ul>
+        <li><a href="benidorm.html">Benidorm</a></li>
+        <li><a href="ibiza.html">Ibiza</a></li>
+        <li><a href="lanzorote.html">Lanzarote</a></li>
+        <li><a href="tenerife.html">Tenerife</a></li>
+      </ul>
+    </li>
+    <li><a href="deals.html">Deals</a></li>
+    <li><a href="#" class="MenuBarItemSubmenu">About</a>
+      <ul>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="storelocator.html">Store Locator</a></li>
+        <li><a href="career.html">Career</a></li>
+      </ul>
+    </li>
+    <li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+  <div id="bodyArea">
+    <p>&nbsp;</p>
+    <table width="701" height="179" border="0">
+      <tr>
+        <td width="468" height="175" bgcolor="#EDEDED"><h2 align="left"><strong>Welcome to www.sunflyholidays.com</strong></h2>
+          <p align="left">Your online source for a low cost sun package holiday. </p>
+          <p align="left">Sunfly Holidays offer amazing deals to four main sunny destinations in Europe. </p>
+          <p align="left">Including - Benidorm, Ibiza, Lanzarote and Tenerife. </p></td>
+        <td width="223" bgcolor="#EDEDED"><a href="ibiza.html"><img src="../images/ibiza6.jpg" alt="ibiza" width="223" height="183" hspace="1" vspace="1" border="1" /></a></td>
+      </tr>
+    </table>
+    <div id="TabbedPanels1" class="TabbedPanels">
+      <ul class="TabbedPanelsTabGroup">
+        <li class="TabbedPanelsTab" tabindex="0">Benidorm</li>
+        <li class="TabbedPanelsTab" tabindex="0">Ibiza</li>
+        <li class="TabbedPanelsTab" tabindex="0">Lanzarote</li>
+        <li class="TabbedPanelsTab" tabindex="0">Tenerife</li>
+      </ul>
+      <div class="TabbedPanelsContentGroup">
+        <div class="TabbedPanelsContent">
+          <p>Benidorm is located 45km northeast of Alicante.</p>
+          <p>It has mild winters and very hot summers.</p>
+          <p>The mountains surrounding the Costa Blanca protect Benidorm   from southernly winds which means Benidorm will be very warm throughout   the year reaching up to 38°C.</p>
+          <p>Click <a href="benidorm.html">here</a> for more about Benidorm.</p>
+        </div>
+        <div class="TabbedPanelsContent">
+          <div>
+            <p>Ibiza is one of the Balearic Islands.</p>
+            <p>It is hugely popular with young tourists who want a lively holiday in the sun!</p>
+            <p>Ibiza has 7 beaches in total, including the popular Talamanca beach. Ibiza's weather reaches up to 27°C during July - August.</p>
+            <p>Click <a href="ibiza.html">here</a> for more about Ibiza.</p>
+          </div>
+        </div>
+        <div class="TabbedPanelsContent">
+          <div>
+            <p>Lanzarote is a popular destinaton for everyone but in particular, couples!</p>
+            <p>It is situated off the coast of Africa. It is the most easterly of the Canary Islands.</p>
+            <p>Lanzarote offers a mild dry climate averaging 21°C in January to 29°C in August</p>
+            <p>Click <a href="lanzorote.html">here</a> for more about Lanzarote.</p>
+          </div>
+        </div>
+        <div class="TabbedPanelsContent">
+          <div id="TabbedPanels2">
+            <div>
+              <div>
+                <p>Tenerife is a very popular destination when it comes to sun holidays! </p>
+                <p>If your looking for the party scene look no further than Playa de las Americas.</p>
+                <p>The average temperatures are 20-22°C. In the hottest summer months it reaches up to 30°C.</p>
+                <p>Click <a href="tenerife.html">here</a> for more about Tenerife.</p>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <hr />
+    <p align="left">Find your nearest Sunfly branch by clicking <a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/storelocator.html">store locator</a>. </p>
+    <p align="left">Call us on <strong><u>01 455 27 27</u></strong></p>
+    <p align="left">click <u><a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/contactus.html">Contact Us </a></u>to submit a query of a destination of interest to you.</p>
+    <hr align="center" />
+    <p align="center"><strong>Free 2 day entry to Aqualandia Water Park when you book a break to Benidorm.</strong></p>
+    <p align="center">
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="422" height="275" id="FLVPlayer">
+        <param name="movie" value="FLVPlayer_Progressive.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="opaque" />
+        <param name="scale" value="noscale" />
+        <param name="salign" value="lt" />
+        <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Halo_Skin_3&amp;streamName=../video/AQUALANDIA.mpg&amp;autoPlay=false&amp;autoRewind=false" />
+        <param name="swfversion" value="8,0,0,0" />
+        <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+        <param name="expressinstall" value="../scripts/expressInstall.swf" />
+        <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="FLVPlayer_Progressive.swf" width="422" height="275">
+          <!--<![endif]-->
+          <param name="quality" value="high" />
+          <param name="wmode" value="opaque" />
+          <param name="scale" value="noscale" />
+          <param name="salign" value="lt" />
+          <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Halo_Skin_3&amp;streamName=../video/AQUALANDIA.mpg&amp;autoPlay=false&amp;autoRewind=false" />
+          <param name="swfversion" value="8,0,0,0" />
+          <param name="expressinstall" value="../scripts/expressInstall.swf" />
+          <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+          <div>
+            <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+          </div>
+          <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+    </p>
+    <hr />
+    <p align="center"><strong>Playa de Levante, Benidorm, Alicante, Costa Blanca, Spain.</strong></p>
+    <p align="center">
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="422" height="275" id="FLVPlayer1">
+        <param name="movie" value="FLVPlayer_Progressive.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="opaque" />
+        <param name="scale" value="noscale" />
+        <param name="salign" value="lt" />
+        <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Halo_Skin_3&amp;streamName=../video/BENIDORM-HD&amp;autoPlay=false&amp;autoRewind=false" />
+        <param name="swfversion" value="8,0,0,0" />
+        <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+        <param name="expressinstall" value="../scripts/expressInstall.swf" />
+        <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="FLVPlayer_Progressive.swf" width="422" height="275">
+          <!--<![endif]-->
+          <param name="quality" value="high" />
+          <param name="wmode" value="opaque" />
+          <param name="scale" value="noscale" />
+          <param name="salign" value="lt" />
+          <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Halo_Skin_3&amp;streamName=../video/BENIDORM-HD&amp;autoPlay=false&amp;autoRewind=false" />
+          <param name="swfversion" value="8,0,0,0" />
+          <param name="expressinstall" value="../scripts/expressInstall.swf" />
+          <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+          <div>
+            <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+          </div>
+          <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+    </p>
+    <hr />
+    <div align="center"><script type="text/javascript">
+// BeginOAWidget_Instance_2141542: #ImageSlideShow
+
+var ImageSlideShow = new Spry.Widget.ImageSlideShow("#ImageSlideShow", {
+	widgetID: "ImageSlideShow",
+	injectionType: "replace",
+	autoPlay: true,
+	displayInterval: 2000,
+	transitionDuration: 2000,
+	componentOrder: ["view"],
+	plugIns: [  ]
+});
+// EndOAWidget_Instance_2141542
+      </script>
+      <table width="571" height="481" border="0">
+        <tr>
+          <td width="281" height="248"><p><a href="benidorm.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','../images/benidorm2.jpg',1)"><img src="../images/benidorm3.jpg" name="Image3" width="250" height="200" border="0" id="Image3" /></a></p>
+            <p><em>Benidorm, Costa Blanca</em>, <em>Spain</em></p></td>
+          <td width="280"><p><a href="ibiza.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','../images/ibiza6.jpg',1)"><img src="../images/ibiza1.jpg" name="Image4" width="250" height="200" border="0" id="Image4" /></a></p>
+            <p><em>Ibiza, The Balearic Islands</em></p></td>
+        </tr>
+        <tr>
+          <td height="227"><p><a href="lanzorote.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','../images/lanzarote7.jpg',0)"><img src="../images/lanzarote5.jpg" name="Image6" width="250" height="200" border="0" id="Image6" /></a></p>
+            <p><em>Lanzarote, Canary Islands</em></p></td>
+          <td><p><a href="tenerife.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','../images/tenerife4.jpg',1)"><img src="../images/tenerife.jpg" name="Image5" width="250" height="200" border="0" id="Image5" /></a></p>
+            <p><em>Tenerife, Canary Islands</em></p></td>
+        </tr>
+      </table>
+      <p>
+        <!-- #BeginDate format:Am1a -->April 18, 2012 2:44 PM<!-- #EndDate -->
+      </p>
+      <p>&nbsp;</p>
+      <p><a href="#top">Return to top of page</a></p>
+      <p>
+        <iframe src="detailsiframe.html" width="736" height="163" scrolling="No" frameborder="0"></iframe>
+      </p>
+      <p><a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/index.html">Home</a> | <a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/benidorm.html">Benidorm</a> | <a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/ibiza.html">Ibiza</a> | <a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/lanzorote.html">Lanzarote</a> | <a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/tenerife.html">Tenerife</a> | <a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/aboutus.html">About Us</a> | <a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/storelocator.html">Store Locator</a> | <a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/career.html">Career</a> | <a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/contactus.html">Contact Us</a> | <a href="file:///F|/Crumlin College Year 2/Web Authoring/Assignment/css/sitemap.html">Site Map</a>    </p>
+    </div>
+    <hr />
+  </div>
+</div>
+<script type="text/javascript">
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+var MenuBar2 = new Spry.Widget.MenuBar("MenuBar2", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+swfobject.registerObject("FLVPlayer");
+swfobject.registerObject("FLVPlayer1");
+</script>
+</body>
+</html>
+
